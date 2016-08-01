@@ -1,0 +1,800 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "Name" : "Name",
+    "Terminal" : "Terminal",
+    "Lat" : "Lat",
+    "Lon" : "Lon"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 50
+    },
+    {
+      "name" : "Terminal",
+      "type" : "esriFieldTypeString",
+      "alias" : "Terminal",
+      "length" : 50
+    },
+    {
+      "name" : "Lat",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Lat"
+    },
+    {
+      "name" : "Lon",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Lon"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "Name" : "Lower Parking Entrance",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09194171499996,
+        "y" : 47.744896441000037
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 2,
+        "Name" : "Vehicle Shed",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09456569999998,
+        "y" : 47.743745698000055
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 3,
+        "Name" : "DOT Weather Station",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09269753699999,
+        "y" : 47.746143050000057
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 4,
+        "Name" : "Everett Cabin",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09516251299999,
+        "y" : 47.744006375000026
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 5,
+        "Name" : "Penguins Cabin",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09711148699995,
+        "y" : 47.744070306000026
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 6,
+        "Name" : "Ski Cruiser Cabin",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09846150799996,
+        "y" : 47.744623301000047
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 7,
+        "Name" : "Swiss Cabin",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09881327399995,
+        "y" : 47.745173095000041
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 8,
+        "Name" : "Mountaineers Cabin",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09852330499996,
+        "y" : 47.74552790000007
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 9,
+        "Name" : "Brooks",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09258368799999,
+        "y" : 47.744284472000061
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 10,
+        "Name" : "Skyline Express",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09219151699995,
+        "y" : 47.744246114000077
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 11,
+        "Name" : "Hogsback",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09164247699999,
+        "y" : 47.743828968000059
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 12,
+        "Name" : "Daisy",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09097221999997,
+        "y" : 47.743373459000054
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 13,
+        "Name" : "Lift Maintenance Shed",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09140004299996,
+        "y" : 47.744634489000077
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 14,
+        "Name" : "Rope Tow",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09107917599999,
+        "y" : 47.744020760000069
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 15,
+        "Name" : "Rope Tow",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09025204999995,
+        "y" : 47.744298857000047
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 16,
+        "Name" : "Tye Creek Lodge",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09073691699996,
+        "y" : 47.744725589000041
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 17,
+        "Name" : "Granite Peaks Lodge",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08985274799994,
+        "y" : 47.744538594000062
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 18,
+        "Name" : "Ski and Snowboard School",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09053726599996,
+        "y" : 47.743766635000043
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 19,
+        "Name" : "Ski Check",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08980996599996,
+        "y" : 47.744049528000062
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 20,
+        "Name" : "Pacific Crest Lodge",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08906127499995,
+        "y" : 47.744562568000049
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 21,
+        "Name" : "Kehr's Chair",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08917536099995,
+        "y" : 47.743709097000078
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 22,
+        "Name" : "Pedestrian Overpass",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08946770699998,
+        "y" : 47.74509957600003
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 23,
+        "Name" : "Parking Operations",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08871188499995,
+        "y" : 47.746777691000034
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 24,
+        "Name" : "Stevens Pass Ski Club",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08569572999994,
+        "y" : 47.746772896000039
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 25,
+        "Name" : "Main Entrance",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08816997599996,
+        "y" : 47.745938640000077
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 27,
+        "Name" : "USFS Guard Station",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08819136699998,
+        "y" : 47.745626989000073
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 28,
+        "Name" : "Parking Lot A",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08886875399998,
+        "y" : 47.745320131000028
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 29,
+        "Name" : "Parking Lot F",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08737850199998,
+        "y" : 47.74547356100004
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 30,
+        "Name" : "Parking Lot E",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08683659199994,
+        "y" : 47.746394126000041
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 31,
+        "Name" : "Parking Lot E",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08496129899999,
+        "y" : 47.747228375000077
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 32,
+        "Name" : "Parking Lot B",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08738563299994,
+        "y" : 47.746734540000034
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 33,
+        "Name" : "Parking Lot D",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08785623799997,
+        "y" : 47.74734823700004
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 34,
+        "Name" : "Parking Lot C",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08894718799996,
+        "y" : 47.746442072000036
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 35,
+        "Name" : "Lower Trail",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09588505999994,
+        "y" : 47.744174193000049
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 36,
+        "Name" : "Upper Trail",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09866876499996,
+        "y" : 47.744569281000054
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 37,
+        "Name" : "Lower Trail",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09852615699998,
+        "y" : 47.744785043000036
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 38,
+        "Name" : "Upper Trail",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.10136357699997,
+        "y" : 47.742391465000026
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 39,
+        "Name" : "Lower Lot 1",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09403115799995,
+        "y" : 47.745287528000063
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 40,
+        "Name" : "Lower Lot 2",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09480361699997,
+        "y" : 47.745199625000055
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 41,
+        "Name" : "Lower Lot 3",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09532651199999,
+        "y" : 47.744895961000054
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 42,
+        "Name" : "Cabin Parking",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09658621499995,
+        "y" : 47.744536357000072
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 43,
+        "Name" : "Lower Lot 4",
+        "Terminal" : null,
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09617027499996,
+        "y" : 47.744616269000062
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 44,
+        "Name" : "Cabin Trail Entrance",
+        "Terminal" : "",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09912938799999,
+        "y" : 47.743289709000067
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 45,
+        "Name" : "Brooks",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.10654697599995,
+        "y" : 47.738186799000061
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 46,
+        "Name" : "Skyline Express",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.10728853699999,
+        "y" : 47.734475083000063
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 47,
+        "Name" : "Hogsback",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09739155299997,
+        "y" : 47.736028857000065
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 48,
+        "Name" : "7th Heaven",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.10618926799998,
+        "y" : 47.734609362000072
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 49,
+        "Name" : "7th Heaven",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.10332064699998,
+        "y" : 47.733613055000035
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 50,
+        "Name" : "Tye Mill",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09026371099998,
+        "y" : 47.73397833000007
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 51,
+        "Name" : "Jupiter",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08517379999995,
+        "y" : 47.731916931000058
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 52,
+        "Name" : "Daisy",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.09153838799995,
+        "y" : 47.738092890000075
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 53,
+        "Name" : "Tye Mill",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08538176999997,
+        "y" : 47.731669622000027
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 55,
+        "Name" : "Jupiter",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.06973927499996,
+        "y" : 47.731014281000057
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 56,
+        "Name" : "Southern Cross",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.06899771399998,
+        "y" : 47.730748902000073
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 57,
+        "Name" : "Southern Cross",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.07908563399997,
+        "y" : 47.738919440000075
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 58,
+        "Name" : "Double Diamond",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.07921041599997,
+        "y" : 47.73912723400008
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 59,
+        "Name" : "Double Diamond",
+        "Terminal" : "Bottom",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08194967399999,
+        "y" : 47.741496828000038
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 60,
+        "Name" : "Kehr's Chair",
+        "Terminal" : "Top",
+        "Lat" : null,
+        "Lon" : null
+      },
+      "geometry" : {
+        "x" : -121.08129605499994,
+        "y" : 47.741996307000079
+      }
+    }
+  ]
+}

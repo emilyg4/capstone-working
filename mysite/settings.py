@@ -15,6 +15,16 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or 
+    # "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+
+    #Add Templates to the absolute directory
+    os.path.join(BASE_DIR, "Templates"),
+    "C:/Program Files/PostgreSQL/9.5/bin",
+)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -39,6 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
+    'leaflet',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -75,11 +87,17 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
+# 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+# 'NAME': 'mysite',
+# 'USER': 'geo',
+
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'Tu11yD0g',
     }
 }
 
@@ -121,3 +139,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LEAFLET_CONFIG = {
+    'DEFAULT_CENTER': (47.737725589, -121.090736917),
+    'DEFAULT_ZOOM': 14,
+    'MIN_ZOOM': 3,
+    'MAX_ZOOM': 18,
+    'TILES': 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      
+}
+
+# other tiles
+# 'TILES': 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+# 'TILES': 'http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg'
+# 'TILES': 'https://api.tiles.mapbox.com/v4/emilyg4.0jemm0o8/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZW1pbHlnNCIsImEiOiJjaXFiYjE0NWIwMGp3ZnRuZWx0ZnF1azA5In0.0PX_pZsAwzFqeGSn4HYn1g',
+# 'TILES': 'http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=Auio6M1uHqMWscFhSwwK9GvSSnhxsv-aU9ybXyVYnMvuSoiv5BjwsDFojTyydDUv'
